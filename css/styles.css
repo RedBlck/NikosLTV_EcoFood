@@ -1,0 +1,88 @@
+.fruits{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1024px;
+    margin: 0 auto;
+}
+
+.fruits h2{
+	flex: 100%;
+}
+
+.fruits article{
+	flex: 1;
+    margin: 20px;
+    padding: 15px;
+}
+
+.fruits article img{
+	width: 100%;
+	height: 250px;
+}
+
+.fruits article h3, .fruits article p{
+	text-align: center;
+}
+
+/*button, header a{
+	background: #0062cc;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 5px 0;
+}*/
+
+/*button:hover, header a:hover{
+	background: lightblue;
+}
+*/
+a{
+	text-decoration: none;
+}
+
+header a{
+	color: black;
+}
+
+/* -----------Parallax------------- */
+
+#title {
+  background-image: url("https://misteckiy.com/media/products_images/2_hNrP4Hd.jpg");
+  background-attachment: fixed;  
+}
+
+#title p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 800;
+  background: black;
+  padding: 5px 10px;
+}
+.section {
+  padding: 20% 10%;
+  min-height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: 50% 50% / cover;  
+}
+
+/* --------Bootstrap-------------- */
+.btn.btn-primary{
+	background: orange;
+	border: none;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active{
+	background: darkgoldenrod !important;
+  box-shadow: 0 0 0 0.2rem yellow !important;
+}
+
+.btn.btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem yellow;
+  background: darkgoldenrod;
+}
